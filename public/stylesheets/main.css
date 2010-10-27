@@ -1,0 +1,44 @@
+html,body {
+	height:1000px;
+	margin: 0px;
+}
+#header {
+	width:1200px;
+	height:20px;
+	background:#777;
+	-webkit-border-radius:3px 3px 3px 3px;
+}
+
+#main {
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	margin-bottom:auto;
+	height:800px;
+}
+
+#navigation {
+	font-size:14px;
+	list-style:none;
+	float:left;
+	width: 150px;
+	min-height:100%;
+	padding-top: 10px;
+	font-family:Arial;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#4A68B1;
+}
+#navigation li {
+	padding-bottom:10px;
+	line-height:10px;
+}
+
+#footer {
+	width:1200px;
+	float:left;
+	height:20px;
+	background:#777;
+	-webkit-border-radius:3px 3px 3px 3px;
+}

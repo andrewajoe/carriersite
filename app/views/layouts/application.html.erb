@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carriersite</title>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+<div id="main">
+	<%= image_tag "logo.png" %>
+	<div id="header">
+	</div>
+	<div id="navigation">
+		<li><%= image_tag "homeicon.png" %> <%= link_to(Home)<hr /></li>
+		<li><%= image_tag "mailicon.png" %> Inbox<hr /></li>
+		<li><%= image_tag "contacticon.png" %> Contacts<hr /></li>
+		<li><%= image_tag "postingicon.png" %> Postings<hr /></li>
+	</div>
+
+<%= yield %>
+<div id="footer">
+</div>
+</div>
+</body>
+</html>
